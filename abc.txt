@@ -1,1 +1,3 @@
 hey hi, I am learning git
+
+I am editing on server directly.
