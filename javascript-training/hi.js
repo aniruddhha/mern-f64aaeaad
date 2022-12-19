@@ -12,3 +12,4 @@ console.log(a + b);
 // console.log { a + b }
 
 jkasfhslakjdfhsdljk = 90;
+// this is the bad way
