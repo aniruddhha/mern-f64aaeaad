@@ -6,16 +6,14 @@
 function makeSqrAdTen(num) {
     const n = num
     const sqr = (n * n) + 10
-
     return sqr
 }
 
-
-function dvdChk(asdkjfhsdklghdlsfkhgdlfjk) {
-    const dvd = asdkjfhsdklghdlsfkhgdlfjk / 45
+function dvdChk(rs) {
+    const dvd = rs / 45
     const sts = (dvd > 6) ? 'normal data' : 'bad data'
     console.log('Status is : '+ sts)
 }
 
-const vl = makeSqrAdTen(7)
-dvdChk(vl)
+const rsVl = makeSqrAdTen(7)
+dvdChk(rsVl)
