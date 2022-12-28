@@ -6,7 +6,11 @@ function avgSum1() { // function is returning another function
     //     return 10 * delta
     // }
 
-    return () => 10 * delta++
+    const ret = () => 10 * delta++
+
+    delta = 322
+
+    return ret
 }
 
 function avgSum2(sm) { // function is passed as parameter to other function
@@ -14,10 +18,9 @@ function avgSum2(sm) { // function is passed as parameter to other function
 }
 
 const avg1 = avgSum1()
-avgSum1() // delta = 10
-avgSum1() // delta = 10
-avgSum1() // delta = 10
-avgSum1() // delta = 10
+console.log(avg1())
+console.log(avg1())
+console.log(avg1())
 console.log(avg1())
 
 const calcDelta = () => 0.5 // function is assigned to varible
