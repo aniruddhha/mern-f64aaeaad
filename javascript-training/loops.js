@@ -5,7 +5,9 @@ function forDemo() {
     const end = 10
 
     for(let n = start; n < end; n++) {
-        console.log('iteration '+ n)
+
+        if(n % 2 == 0)
+            console.log('iteration '+ n)
     }
 }
 
