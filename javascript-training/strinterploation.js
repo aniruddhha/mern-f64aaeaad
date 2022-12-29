@@ -1,4 +1,4 @@
-// const fnNm = 'abc'
+const fnNm = 'abc'
 const lsNm = 'pqr'
 const flNm1 = 'My name is '+fnNm + ' ' + lsNm
 console.log(flNm1)
