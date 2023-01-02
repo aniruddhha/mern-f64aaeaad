@@ -40,6 +40,19 @@ const rmFst = arr.shift()
 console.log(arr)
 console.log(rmFst)
 
+console.log(`👉 Slice and Splice`)
+console.log(arr)
+const slc1 = arr.slice(start = 3)
+console.log(slc1)
+const slc2 = arr.slice(start = 3, end = 5)
+console.log(slc2)
+
+arr.splice(start = 0, deleteCount = 0)
+console.log(arr)
+
+
+
+
 
 
 
