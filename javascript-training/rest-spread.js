@@ -25,9 +25,3 @@ prepare(1, 7, 9, 10)
 prepare(1, 7, 7)
 prepare(...arr)
 
-
-// 🎁 Home work - apply property short hand notation
-// as per your understanding
-function noramDistribution(o) {
-    console.log(o)
-}
