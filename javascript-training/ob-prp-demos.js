@@ -33,3 +33,9 @@ const arr = [
 const res = [ ...arr[0], ...arr[1], ...arr[2] ]
 console.log(res)
 
+const merged1 = arr.reduce( (prev, curr) => prev.concat(curr))
+console.log(merged1)
+
+const merged2 = arr.reduce( (prev, curr) => [...prev, ...curr])
+console.log(merged2)
+
