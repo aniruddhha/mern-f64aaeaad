@@ -1,0 +1,22 @@
+p::first-line {
+    color: red;
+}
+
+p::first-letter {
+    color: #ff0000;
+    font-size: xx-large;
+}
+
+.box:hover { 
+    background-color: red;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: black;
+}
+
+div:nth-child(n + 5) {
+    background-color: red;
+}

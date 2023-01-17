@@ -1,0 +1,26 @@
+:root {
+    --nm : cadetblue;
+    --hv : yellowgreen;
+    --logourl : '';
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: var(--nm);
+
+}
+
+.cont-flx {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+
+    background-color: beige;
+}
+
+.box:hover {
+    background-color: var(--hv);
+}
