@@ -1,0 +1,25 @@
+/* descendant selector */
+section p {
+    background-color: black;
+    color: white;
+    font-style: italic;
+}
+
+/* child selector */
+section > p {
+    border: 5px solid red;
+}
+
+/* adjecent sibling */
+div + p {
+    background-color: brown;
+}
+
+/* general sibling selector */
+aside ~ p {
+    background-color: blue;
+}
+
+main > p:nth-last-child(-n + 2) {
+    background-color: yellow;   
+}
