@@ -23,3 +23,8 @@ aside ~ p {
 main > p:nth-last-child(-n + 2) {
     background-color: yellow;   
 }
+
+div:has(p) {
+    background-color: red;
+}
+
