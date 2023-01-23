@@ -1,0 +1,23 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto;
+    gap: 1em;
+
+    /* justify-content: flex-end;
+    align-items: flex-end; */
+}
+
+section > div {
+    background-color: cadetblue;
+    /* height: 10%; */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+    color: white;
+}
+
