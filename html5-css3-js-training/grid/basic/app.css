@@ -3,7 +3,7 @@
     height: 100vh;
 
     display: grid;
-    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto;
+    grid-template-columns: auto auto auto;
     gap: 1em;
 
     /* justify-content: flex-end;

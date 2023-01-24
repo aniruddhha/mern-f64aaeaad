@@ -1,0 +1,41 @@
+.item1 {
+    grid-area: hdr;
+    background-color: brown;
+}
+
+.item2 {
+    grid-area: mn;
+    background-color: aquamarine;
+}
+
+.item3 {
+    grid-area: rdr;
+    background-color: crimson;
+}
+
+.item4 {
+    grid-area: ftr;   
+    background-color: blueviolet;
+}
+
+.container {
+    display: grid;
+    gap: 1em;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "hdr hdr hdr hdr"
+    "mn mn . rdr"
+    "mn mn . rdr"
+    "ftr ftr ftr rdr"
+    ;
+}
+
+section > div {
+    /* height: 10%; */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+    color: black;
+}
