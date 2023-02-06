@@ -1,5 +1,9 @@
 # Milestones
 
+> 💡 Everyone is having freedom to choose colors, borders, input field styles, animations, images, button styles etc etc of their own choice.
+> ⚠️ Layout, Structure, Number of Fields in the form, are not allowed to change.
+
+
 ## 🏆 M1 Design - Html5, Css3 
 > 👩‍🦰 Hey buddy please develop a web site for my small finance bank.
 - Here you will simply design given wireframes using Html5 and Css3. 
