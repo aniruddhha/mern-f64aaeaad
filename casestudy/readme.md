@@ -1,4 +1,5 @@
-# > Our client -> 👩‍🦰, she runs a small finance bank and wants to build basic Banking App.This app will have two roles i.e. Admin and Customer. This app aims to provide a convenient and accessible platform for customers to manage their finances and for the bank to efficiently serve its customers. 
+# Small Finance Banking App
+> Our client -> 👩‍🦰, she runs a small finance bank and wants to build basic Banking App.This app will have two roles i.e. Admin and Customer. This app aims to provide a convenient and accessible platform for customers to manage their finances and for the bank to efficiently serve its customers. 
 
 ### Main Menu
 - 1. Admin
