@@ -1,6 +1,7 @@
 # Milestones
 
 > 💡 Everyone is having freedom to choose colors, borders, input field styles, animations, images, button styles etc etc of their own choice.
+
 > ⚠️ Layout, Structure, Number of Fields in the form, are not allowed to change.
 
 
