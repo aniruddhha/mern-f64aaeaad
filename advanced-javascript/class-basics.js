@@ -7,8 +7,8 @@ class DateUtil { // class template
 
     // class is the entity which encapsulates, 
     // state(data/members) and behaviour(methods/functions)
-    constructor() {
-        this.date = '2023-02-23' 
+    constructor(dt) {
+        this.date = dt
         // what do you mean by this ?
         // member variable
         // state
