@@ -6,6 +6,7 @@ class Animal {
     }
 
     walk(dt) { //behaviour -> function
+        const res = 10
         this.legs += 2
         console.log(` ${dt} is Walking`)
     }
@@ -25,10 +26,15 @@ const ab = 10
 const pq = 20
 
 
-const tiger = new Animal()
-tiger.run('tiger')
-tiger.sleep()
-tiger.walk('tiger')
+const tiger1 = new Animal()
+tiger1.run('tiger')
+tiger1.sleep()
+tiger1.walk('tiger')
+
+const tiger2 = new Animal()
+tiger2.run('tiger')
+tiger2.sleep()
+tiger2.walk('tiger')
 
 
 function run(dt) {
