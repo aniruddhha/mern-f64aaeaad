@@ -1,18 +1,13 @@
-ajhsfgjsadkhfg = "abc"; // initilization
+protocol = "abc"; // initilization
 
-const url = `${ajhsfgjsadkhfg} is value` // using 
+const url = `${protocol} is value` // using 
 console.log(url)
-
-var ajhsfgjsadkhfg; // declartaion
+var protocol; // declartaion
 
 
 foo() // call
-
 
 function foo() { // define
     console.log('Foo Called')
 }
 
-var a;
-a = 67
-console.log(a)
