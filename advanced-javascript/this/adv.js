@@ -22,7 +22,7 @@ console.log(`Call : New Name ${ nwFlNm }`)
 
 console.log(`Original ${person.flNm()}`)
 const newFn = person.flNm.bind({ fstNm : 'ttt', lstNm : 'ooo' })
-console.log(`Bind : New Name ${ newFn() }`)
+console.log(`Bind : New Name ${ newFn('hi', 'hello') }`)
 
 console.log(`Original ${person.flNm()}`)
 const newPerson = {
